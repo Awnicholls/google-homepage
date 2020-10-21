@@ -1,32 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="img/favicon.png">
-    <link rel="stylesheet" href="style.css">
-    <title>Google</title>
-</head>
-<body>
-    <section>
-        <header>
-            <nav class="nav-bar">
-                <div class="left-nav">
-                    <a href="#">About</a>
-                    <a href="#">Store</a>
-                </div>
-                <div class="right-nav">
-                    <a href="#">Gmail</a>
-                    <a href="#">Images</a>
-                    <img class="show-apps-icon" src="img/show-apps-button.png" alt="Google Apps">
-                    <button class="btn btn-primary">Sign in</button>
-                </div>
-            </nav>
-        </header>
-        <!-- End of Header -->
-
-        <!-- Main Content -->
-        <main>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="img/favicon.png">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Google</title>
+    </head>
+    
+    <body>
+        <nav>
+            <button id="sign-in" class="right"><a href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/">Sign in</a></button>
+            <i class="material-icons right">&#xe5c3;</i>
+            <a href="https://about.google/?fg=1&utm_source=google-AU&utm_medium=referral&utm_campaign=hp-header" class="left">About</a>
+            <a href="https://store.google.com/AU?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-AU" class="left">Store</a>
+            <a href="https://www.google.com.au/imghp?hl=en&tab=wi&ogbl" class="right">Images</a>
+            <a href="https://mail.google.com/mail/?tab=wm&ogbl" class="right">Gmail</a>
+          </nav>
+        
+          <main>
             <section>
                 <div>
                     <div>
@@ -48,22 +41,14 @@
                 </div>
             </section>
         </main>
-        <!-- End of Main Content -->
-
-        <!-- Footer -->
+        
         <footer>
-            <div>
-                <a href="#">Advertising</a>
-                <a href="#">Business</a>
-                <a href="#">How Search works</a>
-            </div>
-            <div>
-                <a href="#">Privacy</a>
-                <a href="#">Terms</a>
-                <a href="#">Settings</a>
-            </div>
+            <a href="https://www.google.com/intl/en_au/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1" class="left">Advertising</a>
+            <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1" class="left">Business</a>
+            <a href="https://google.com/search/howsearchworks/?fg=1" class="left">How Search works</a>
+            <a href="https://www.google.com/preferences?hl=en" class="right">Settings</a>
+            <a href="https://policies.google.com/terms?fg=1" class="right">Terms</a>
+            <a href="https://policies.google.com/privacy?fg=1" class="right">Privacy</a>
         </footer>
-        <!-- End of Footer -->
-    </section>
-</body>
+    </body>
 </html>
