@@ -136,6 +136,11 @@ input[type='text'] {
 .search-box:hover {
     box-shadow: 0.5px 0.5px 2px 2.5px rgba(223, 228, 232, 0.5);
 }
+
+:focus {
+	outline: none;
+}
+
 /* Image Styling */
 #logo {
 	width: auto;
