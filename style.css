@@ -40,12 +40,12 @@ nav a:visited {
     color: #222; 
 }
 
-nav a.right:hover { 
+nav a.right-nav:hover { 
     color: #555;
     text-decoration: underline; 
 }
 
-nav a.left:hover {
+nav a.left-nav:hover {
     text-decoration: underline;
 }
 
