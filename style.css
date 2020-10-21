@@ -210,11 +210,23 @@ footer {
     padding-right: 20px;
     background-color: #f2f2f2;
 }
+.upper-footer{
+padding-top: 10px;padding-bottom: 10px;
+border-bottom: 1px solid #e4e4e4;
 
+}
 footer a, p {
     text-decoration: none;
     padding: 11px 13.5px;
     color:#5f6368;
+}
+
+.left-footer { 
+    float: left;
+}
+
+.right-footer { 
+    float: right; 
 }
 
 footer a:link { 
